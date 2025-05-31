@@ -107,7 +107,7 @@
     
         if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
-            logo.src = '../img/logo/wedevlope1.png'; // Change to the path of the new logo
+            logo.src = './img/logo/wedevlope1.png'; // Change to the path of the new logo
             menuLinks.forEach(link => {
                 link.style.color = 'black'; // Change menu items color to black
             });
