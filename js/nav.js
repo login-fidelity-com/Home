@@ -113,7 +113,7 @@
             });
         } else {
             navbar.classList.remove('scrolled');
-            logo.src = '../img/logo/wedevlope2.png'; // Change back to the original logo
+            logo.src = './img/logo/wedevlope2.png'; // Change back to the original logo
             menuLinks.forEach(link => {
                 link.style.color = 'white'; // Change menu items color back to white
             });
